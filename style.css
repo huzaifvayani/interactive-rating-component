@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141519;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Open Pass', sans-serif;
+}
+
+.container{
+    background-color: #1d242e;
+    width: 360px;
+    height: 380px;
+    border-radius: 30px;
+}
+.active{
+    display: none;
+}
+.circle{
+    background-color: #212e3a;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+.circle img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+#head-01{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#para-01{
+    font-size: .8rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    line-height: 20px;
+    color: #828993;
+}
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+   background-color: #262f38;
+   border: none;
+   color: #828993;
+   margin-left: 30px; 
+   margin-top: 30px;
+   cursor: pointer;
+}
+.btn-2, .btn-3, .btn-4, .btn-5{
+    margin-left: 20px;
+}
+.btn:nth-child(odd):hover{
+    background-color: #7b8795;
+    color: #fff;
+}
+.btn:nth-child(even):hover{
+    background-color: #fc7613;
+    color: #fff;
+}
+.submit{
+    display: block;
+    width: 290px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fc7613;
+    color: #fce6ba;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #fff;
+    color: #fc7613;
+}
+.wrapper{
+    width: 360px;
+    height: 360px;
+    border-radius: 30px;
+    background-color: #1b222c;
+}
+
+.wrapper img{
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#head-02{
+    text-align: center;
+    font-size: .9rem;
+    background-color: #262f38;
+    width: 180px;
+    height: 30px;
+    padding-top: 7px;
+    border-radius: 30px;
+    color: #a25a30;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#head-03{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+#para-02{
+    text-align: center;
+    font-size: .9rem;
+    color: #828993;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+}
